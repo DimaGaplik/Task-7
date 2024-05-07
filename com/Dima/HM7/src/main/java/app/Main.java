@@ -1,8 +1,15 @@
 package app;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args){
-        int[] array = {34, -10, 56, -22, 78, 5, 7, -15, 42, -30, 91, 0, -50, 18, 99, -3, 25, 11, 63, -8};
+        int[] array = new int[20];
+
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextInt(201) - 100;
+        }
 
         int sumOfNegative = 0;
         for(int num : array) {
