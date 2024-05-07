@@ -39,8 +39,8 @@ public class Main {
                 minIndex = i;
             }
         }
-        System.out.println("Наибольший элемент массива: " + max + ", его индекс: " + maxIndex);
-        System.out.println("Наименьший элемент массива: " + min + ", его индекс: " + minIndex);
+        System.out.println("Наибольший элемент массива: " + max + " (с индексом " + maxIndex + ")");
+        System.out.println("Наименьший элемент массива: " + min + " (с индексом " + minIndex+ ")");
 
         int sumAfterFirstNegative = 0;
         int countAfterFirstNegative = 0;
